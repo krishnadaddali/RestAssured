@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 13.475 sec <<< FAILURE! - in TestSuite
+deleteEmployee(com.emp.testcases.TC005_DeleteEmpInfo)  Time elapsed: 0.611 sec  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:87)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:949)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:984)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:951)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1031)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at com.emp.testcases.TC005_DeleteEmpInfo.deleteEmployee(TC005_DeleteEmpInfo.java:35)
+

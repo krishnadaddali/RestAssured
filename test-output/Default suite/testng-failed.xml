@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.orwrites.util.AddNewEmpDataDrivenTest">
+        <methods>
+          <include name="addEmp" invocation-numbers="4"/>
+        </methods>
+      </class> <!-- com.orwrites.util.AddNewEmpDataDrivenTest -->
+      <class name="com.orwrites.testcases.TC004_Put_Employee_Record">
+        <methods>
+          <include name="checkContentType"/>
+          <include name="setup"/>
+          <include name="checkserverType"/>
+          <include name="tearDown"/>
+          <include name="updateEmployee"/>
+        </methods>
+      </class> <!-- com.orwrites.testcases.TC004_Put_Employee_Record -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

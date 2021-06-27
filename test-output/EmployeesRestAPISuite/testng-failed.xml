@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EmployeesRestAPISuite]">
+  <listeners>
+    <listener class-name="com.emp.util.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="EmployeesRestAPITest(failed)">
+    <classes>
+      <class name="com.emp.testcases.TC005_DeleteEmpInfo">
+        <methods>
+          <include name="checkserverType"/>
+          <include name="checkStatusCode"/>
+          <include name="deleteEmployee"/>
+          <include name="setup"/>
+          <include name="checkContentType"/>
+          <include name="tearDown"/>
+          <include name="checkResposeBody"/>
+          <include name="checkcontentEncoding"/>
+          <include name="checkstatusLine"/>
+        </methods>
+      </class> <!-- com.emp.testcases.TC005_DeleteEmpInfo -->
+    </classes>
+  </test> <!-- EmployeesRestAPITest(failed) -->
+</suite> <!-- Failed suite [EmployeesRestAPISuite] -->

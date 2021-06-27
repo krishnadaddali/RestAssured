@@ -1,0 +1,2 @@
+cd C:\Users\ivc17046adm\workspace\ORWritesRestAssuredExt
+mvn clean install

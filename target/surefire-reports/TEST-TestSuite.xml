@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.651" tests="35" errors="0" skipped="7" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ivc17046adm\workspace\ORWritesRestAssuredExt"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ivc17046adm\workspace\ORWritesRestAssuredExt"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\IVC170~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Softwares\apache-maven-3.6.1\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Softwares\apache-maven-3.6.1\apache-maven-3.6.1\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\ivc17046adm\AppData\Local\Microsoft\WindowsApps;C:\Users\ivc17046adm\AppData\Local\Programs\Fiddler;."/>
+    <property name="maven.conf" value="C:\Softwares\apache-maven-3.6.1\apache-maven-3.6.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Softwares\apache-maven-3.6.1\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ivc17046adm"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ivc17046adm"/>
+    <property name="java.class.path" value="C:\Softwares\apache-maven-3.6.1\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Softwares\apache-maven-3.6.1\apache-maven-3.6.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="checkContentEncoding" classname="com.emp.testcases.TC001_GetAllEmpInfo" time="0.003"/>
+  <testcase name="checkContentLength" classname="com.emp.testcases.TC001_GetAllEmpInfo" time="0.001"/>
+  <testcase name="checkContentType" classname="com.emp.testcases.TC001_GetAllEmpInfo" time="0"/>
+  <testcase name="checkCookies" classname="com.emp.testcases.TC001_GetAllEmpInfo" time="0.001"/>
+  <testcase name="checkResponseBody" classname="com.emp.testcases.TC001_GetAllEmpInfo" time="0.025"/>
+  <testcase name="checkResponseTime" classname="com.emp.testcases.TC001_GetAllEmpInfo" time="0"/>
+  <testcase name="checkServerType" classname="com.emp.testcases.TC001_GetAllEmpInfo" time="0.001"/>
+  <testcase name="checkStatusCode" classname="com.emp.testcases.TC001_GetAllEmpInfo" time="0.001"/>
+  <testcase name="statusLine" classname="com.emp.testcases.TC001_GetAllEmpInfo" time="0.001"/>
+  <testcase name="checkContentType" classname="com.emp.testcases.TC002_GetEmpInfo" time="0"/>
+  <testcase name="checkResponseBody" classname="com.emp.testcases.TC002_GetEmpInfo" time="0.006"/>
+  <testcase name="checkResponseTime" classname="com.emp.testcases.TC002_GetEmpInfo" time="0"/>
+  <testcase name="checkServerType" classname="com.emp.testcases.TC002_GetEmpInfo" time="0"/>
+  <testcase name="checkStatusCode" classname="com.emp.testcases.TC002_GetEmpInfo" time="0"/>
+  <testcase name="statusLine" classname="com.emp.testcases.TC002_GetEmpInfo" time="0"/>
+  <testcase name="checkContentType" classname="com.emp.testcases.TC003_PostEmpInfo" time="0"/>
+  <testcase name="checkResposeBody" classname="com.emp.testcases.TC003_PostEmpInfo" time="0"/>
+  <testcase name="checkStatusCode" classname="com.emp.testcases.TC003_PostEmpInfo" time="0"/>
+  <testcase name="checkcontentEncoding" classname="com.emp.testcases.TC003_PostEmpInfo" time="0"/>
+  <testcase name="checkserverType" classname="com.emp.testcases.TC003_PostEmpInfo" time="0"/>
+  <testcase name="checkstatusLine" classname="com.emp.testcases.TC003_PostEmpInfo" time="0"/>
+  <testcase name="checkContentType" classname="com.emp.testcases.TC004_PutEmpInfo" time="0"/>
+  <testcase name="checkResposeBody" classname="com.emp.testcases.TC004_PutEmpInfo" time="0.001"/>
+  <testcase name="checkStatusCode" classname="com.emp.testcases.TC004_PutEmpInfo" time="0"/>
+  <testcase name="checkcontentEncoding" classname="com.emp.testcases.TC004_PutEmpInfo" time="0"/>
+  <testcase name="checkserverType" classname="com.emp.testcases.TC004_PutEmpInfo" time="0"/>
+  <testcase name="checkstatusLine" classname="com.emp.testcases.TC004_PutEmpInfo" time="0"/>
+  <testcase name="deleteEmployee" classname="com.emp.testcases.TC005_DeleteEmpInfo" time="0.611">
+    <failure message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:87)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:949)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:984)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:951)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1031)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at com.emp.testcases.TC005_DeleteEmpInfo.deleteEmployee(TC005_DeleteEmpInfo.java:35)
+</failure>
+    <system-out><![CDATA[2021-06-27 08:38:19 INFO  EmployeesRestAPI:115 - *********  Finished TC004_update_Employee_Record **********
+2021-06-27 08:38:19 INFO  EmployeesRestAPI:24 - *********Started TC005_Delete_Employee_Record **********
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.emp.testcases.TC005_DeleteEmpInfo" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkResposeBody" classname="com.emp.testcases.TC005_DeleteEmpInfo" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.emp.testcases.TC005_DeleteEmpInfo" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkcontentEncoding" classname="com.emp.testcases.TC005_DeleteEmpInfo" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkserverType" classname="com.emp.testcases.TC005_DeleteEmpInfo" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkstatusLine" classname="com.emp.testcases.TC005_DeleteEmpInfo" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.emp.testcases.TC005_DeleteEmpInfo" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
